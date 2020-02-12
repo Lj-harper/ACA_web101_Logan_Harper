@@ -1,0 +1,31 @@
+h1 {
+    color: magenta;
+    width: 60%;
+    margin: 5% auto;
+}
+
+main {
+    background: grey;
+    width: 60%;
+    margin: 5% auto;
+}
+
+article {
+    margin: 1% auto;
+    border: 2px solid purple;
+    width: 60%;
+    background: whitesmoke;
+}
+
+article > h3 {
+    font-size: 1em;
+
+}
+
+article:hover {
+    background: honeydew;
+}
+
+article:hover > h3 {
+    color: blue;
+}
