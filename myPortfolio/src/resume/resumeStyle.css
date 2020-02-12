@@ -1,0 +1,35 @@
+h1 {
+    color: black;
+    width: 10%;
+    margin: 5% auto;
+}
+
+h2 {
+    color: teal;
+    width: 50%;
+    margin: 5% auto;
+    background: lightgrey;
+}
+
+h3 {
+    color: teal;
+    width: 50%;
+    margin: 5% auto;
+    background: lightgrey
+}
+
+h4 {
+    border: 2px solid teal;
+    margin: 5% auto;
+}
+
+h5 {
+    color: teal;
+    width: 50%;
+    margin: 5% auto;
+    background: lightgrey;
+}
+
+h6 {
+    font-size: 2em;
+}
