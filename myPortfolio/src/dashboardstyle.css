@@ -1,35 +1,73 @@
- body {
+ 
+/* Small Landscape (576px) */
+@media (min-width: 576px) {
+  body {
+    background-color: green;
+  }
+  .toDoMain {
+    margin: 15px;
+    max-width: auto;
+  }
+  .calcMain {
+    margin: -20px;
+  }
+  .clockMain {
+    max-width: 150px;
+    max-height: 100px;
+  }
+
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: olive;
+  }
+  .toDoMain {
+    grid-row: 3;
+    grid-column: 2;
+  }
+
+}
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+
+
+
+}
+ 
+ /* Desktop */
+body {
    display: grid;
   grid-template-columns: 25% 25% 25%;
   grid-template-rows: 25% 70% 70%;
  }
- .calcMain {
+.calcMain {
    grid-row: 2;
-   grid-column: 1;
+   grid-column: 2;
  }
- #calcBody {
+#calcBody {
     background-color: #777;
     height: 400px;
     width: 300px;
     margin: 5px;
   }
-  #screen {
+#screen {
     font-family: "Glegoo", Serif;
   }
-  h1 {
+h1 {
     margin: 0px 40px 0px 40px;
     color: #ddd;
     font-size: 1.8em;
     text-align: center;
   }
-  #screen {
+#screen {
     margin: 20px 40px 20px 40px;
     height: 35px;
     background: #8eb095;
     border-radius: 3px;
     box-shadow: 2px 2px 1px #555 inset;
   }
-  #screen p {
+#screen p {
     position: relative;
     top: -3px;
     margin: 7px;
@@ -37,35 +75,36 @@
     font-size: 1.4em;
     overflow: hidden;
   }
-  #buttonPad {
+#buttonPad {
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
     width: 240px;
     margin: auto;
   }
-  button {
+button {
     height: 35px;
     width: 50px;
     margin: 5px 0 5px 0;
     border-radius: 3px;
     font-size: 1.1em;
   }
-  #plus {
+#plus {
     height: 80px;
   }
   
-  .clockMain {
+.clockMain {
     grid-column: 1;
     grid-row: 3;
   }
-  .toDoMain {
-    grid-column: 2;
-    grid-row: 2;
+.toDoMain {
+    grid-column: 3;
+    grid-row: 3;
   }
 
-  .greeting {
+.greeting {
     grid-column: 2;
     grid-row: 1;
     font-size: 8vh;
   }
+
